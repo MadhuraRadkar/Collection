@@ -10,7 +10,7 @@ namespace Collection.Generic.cs
     {
         static void Main(string[] args)
         {
-            // Country code & name.
+            // 10. WAP to store country code & country name using generic dictionary.Add & display details.
             Dictionary<int,string> dictionary = new Dictionary<int,string>();
             dictionary.Add(036, "Australia");
             dictionary.Add(076, "Brazil");

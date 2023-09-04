@@ -15,7 +15,7 @@ namespace Collection.Generic.cs
             stack.Push(20);
             stack.Push(30);
 
-           // stack.Pop();
+           //stack.Pop();
             Console.WriteLine("Top element " + stack.Peek());
             foreach (var item in stack)
             {

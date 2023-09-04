@@ -32,8 +32,8 @@ namespace Collection.Generic.cs
         {
             static void Main(string[] args)
             {
-                Employee e1 = new Employee { Name = "Suresh", Salary = 40000 };
-                Employee e2 = new Employee { Name = "Priyanka", Salary = 40000 };
+                Employee e1 = new Employee { Name = "Suresh", Salary = 50000 };
+                Employee e2 = new Employee { Name = "Priyanka", Salary = 50000 };
 
                 CheckSalary c= new CheckSalary();
 
@@ -45,15 +45,12 @@ namespace Collection.Generic.cs
                 }
                 else if(result == -1)
                 {
-                    Console.WriteLine("Suresh has less salary than  Priyanka");
+                    Console.WriteLine("Suresh has less salary than Priyanka");
                 }
                 else
                 {
                     Console.WriteLine("Suresh & Priyanka both have same salary");
                 }
-
-
-
 
             }
         }

@@ -32,8 +32,6 @@ namespace Collection.Generic.cs
             Console.WriteLine("Count(Total element) " + list.Count); // count total element
             Console.WriteLine("Capacity " + list.Capacity);
 
-
-
             foreach (int i in list)
             {
                 Console.WriteLine(i);

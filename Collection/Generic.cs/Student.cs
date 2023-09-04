@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Collection.Generic.cs
 {
     public class Student
-    {   // WAP to create an array of 5 strings to store student name,sort names in ascending order & display using foreach loop.
+    {   // 2. WAP to create an array of 5 strings to store student name,sort names in ascending order & display using foreach loop.
         // Generic method.
         static void Main(string[] args)
         {
